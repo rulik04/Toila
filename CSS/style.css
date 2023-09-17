@@ -1,0 +1,410 @@
+body{
+    background-image: url(/images/back.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: Montserrat;
+    scroll-behavior: smooth;
+}
+
+#logo_img{
+    width: 100px;
+}
+
+#logo{
+    color: #FFBE3F;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.logo{
+    display: flex;
+    align-items: center;     
+}
+
+a { text-decoration: none; }
+
+.nav_links {
+    color:white;
+}
+
+nav li {
+    display: inline;
+    margin-right: 35px;
+    font-size: 18px;
+}
+li:last-child {
+    margin-right: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    margin: 20px 85px 120px 70px;
+}
+
+.ss_img{
+    width: 25px;
+}
+
+.social-sites li{
+    display: inline;
+    margin-right: 5px;
+}
+
+.vertical_line {
+    display: inline-block;
+    border: 1px solid #FFBE3F;
+    height: 25px;
+}
+
+#vertical_line {
+    margin-right: 10px;
+}
+
+#acc_logo{
+    width: 30px;
+}
+
+.account_content{
+    display: flex;
+    align-items: center;
+    /* border-left: #FFBE3F 2px solid; */
+}
+
+.account_content p{
+   color: #FFF;
+}
+
+#ss_acc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.main_content {
+    width: 600px;
+    margin-left: 85px;
+    margin-bottom: 250px;
+}
+
+.main_content h1 {
+    color: #FFBE3F;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.main_content p {
+    color: #FFBE3F;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    margin-bottom: 40px;
+}
+
+#call_me {
+    width: 300px;
+    height: 70px;
+    border-radius: 50px;
+    background: linear-gradient(263deg, #FF2828 35.45%, #EE4C69 86.79%);
+    border-color: #ff2929;
+    box-shadow: 0px 10px 50px 0px #FF2929;
+    color: White;
+    font-size: 20px;
+}
+
+.box{
+    width: 131px;
+    height: 131px;
+    border-radius: 40px;
+    background: rgba(255, 190, 63, 0.37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.box img{
+    width: 85px;
+    height: 85px;
+
+}
+h2{
+    color: #FFBE3F;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 60px;
+    margin-left: 85px;
+}
+
+.block .dd{
+    color: #FFFAFA;
+    font-family: Montserrat;
+    font-size: 15px;
+    display: block;
+}
+.name{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
+.block{
+    display: flex;
+    align-items: center; 
+}
+
+.choose{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 85px 85px 85px;
+}
+
+#word_box{
+    width: 900px;
+    
+}
+
+#word_box p{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#slogan{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+
+.fame{
+    color: #FFBE3F;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-left: 85px;
+    margin-bottom: 85px;
+}
+
+.cont-box{
+    margin: 0 85px 85px 85px;
+    columns: 3;
+    
+}
+
+.container{
+    width: 420px;
+    
+}
+
+.container img{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-right: 0;
+    justify-content: center;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.line{
+    border-top: #FFBE3F 1px solid;
+    width: 1000px;
+}
+
+.line p{
+    margin-top: 25px;
+    color: #FFBE3F;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 350px 50px 350px;
+    
+}
+.footer-content section p{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.main-p{
+    font-weight: 900;
+}
+
+#black-box{
+    background-color: rgba(0, 0, 0, 0.80);
+    height: 20px;
+}
+
+
+
+.call_box{
+    width: 1000px;
+    height: 500px;
+    background-color: #000000;
+    position: absolute;
+    display: none;
+}
+
+#call_me:active .call_box{
+}
+
+
+
+
+
+/* --------------------------------- */
+
+#call {
+    margin: 100px auto;
+    /* background-color: #FFFAFA; */
+    background-color: #FFFAF0;
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    position: relative;
+}
+
+#call_image {
+    width: 600px;
+    height: 800px;
+}
+
+.call_inner {
+    padding-left: 100px;
+    width: 600px;
+}
+
+.call_inner h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.data_title {
+    font-size: 14px;
+    color: grey;
+    position: absolute;
+    margin-top: -48.5px;
+    transition: 0.3s;
+}
+
+.data {
+    border: 0;
+    border-bottom: 1px solid grey;
+    display: block;
+    margin-bottom: 30px;
+    background-color: inherit;
+    width: 300px;
+}
+
+.data:focus {
+    outline: none;
+}
+
+.data_title:hover {
+    margin-top: -70px;
+}
+
+.data:hover + .data_title {
+    margin-top: -70px;
+}
+
+.data:focus + .data_title {
+    margin-top: -70px;
+}
+
+.data:valid + .data_title {
+    margin-top: -70px;
+}
+
+.call_inner textarea {
+    width: 350px;
+    height: 100px;
+    resize: none;
+    margin-bottom: 25px;
+    background-color: inherit;
+}
+
+.call_inner textarea:focus {
+    outline: none;
+}
+
+#submit_info {
+    display: block;
+    background: linear-gradient(263deg, #FF2828 35.45%, #EE4C69 86.79%);
+    border-color: #ff2929;
+    box-shadow: 0px 10px 50px 0px #FF2929;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-left: 260px; 
+}
+
+#logo_img2 {
+    width: 100px;
+    position: absolute;
+    top: 2px;
+    right: 10px;
+}
+
+
+
+/* 
+---------------------------------
+*/
+
+.dropdown_content {
+    display: none;
+    position: absolute;
+    min-width: 95px;
+    margin-left: 5px;
+    background-color: white;
+}
+
+.dropdown_content a {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.account_container:hover .dropdown_content {
+    display: block;
+}
+
+#tiktok{
+    margin-right: 100px;
+}
